@@ -56,7 +56,7 @@ const Body = () => {
   return (
     <div className="flex-[0.8] mt-3">
       <div className="space-y-5">
-        <div className="flex text-gray-400 items-center space-x-2">
+        <div className="flex text-gray-900 items-center space-x-2">
           <EngineeringIcon />
           <h1>All Faculty</h1>
         </div>
