@@ -12,7 +12,7 @@ const Header = () => {
     navigate("/login/facultylogin");
   };
   return (
-    <div className="flex-[0.05] flex justify-between items-center mx-5 my-2">
+    <div className="flex-[0.05] flex justify-between items-center mx-5 my-2 pb-2 border-b border-blue-600">
       <div className="flex items-center ">
         <img
           src="https://icon-library.com/images/cms-icon/cms-icon-11.jpg"

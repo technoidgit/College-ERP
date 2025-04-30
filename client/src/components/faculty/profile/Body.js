@@ -11,7 +11,7 @@ const Body = () => {
     <div className="flex-[0.8] mt-3">
       <div className="space-y-5">
         <div className="flex  items-center justify-between mr-8">
-          <div className="flex space-x-2 text-gray-400">
+          <div className="flex space-x-2 text-gray-900">
             <AssignmentIndIcon />
             <h1>Profile</h1>
           </div>
@@ -23,7 +23,7 @@ const Body = () => {
           </div>
         </div>
         <div className="w-[98%] bg-white relative rounded-xl ">
-          <div className="absolute left-[50%] top-[-10%]">
+          <div className="absolute left-[54%] top-[-10%]">
             <Avatar src={user.result.avatar} sx={{ width: 70, height: 70 }} />
           </div>
           <div className="flex py-10 ml-10 space-x-40">
