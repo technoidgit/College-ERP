@@ -44,7 +44,7 @@ const StudentLogin = () => {
     }
   }, [store.errors]);
   return (
-    <div className="bg-[#5a51d6] h-screen w-screen flex items-center justify-center">
+    <div className="bg-purple-500 h-screen w-screen flex items-center justify-center">
       <div className="grid grid-cols-2">
         <div
           className={`h-96 w-96 bg-white flex items-center justify-center ${
@@ -62,9 +62,9 @@ const StudentLogin = () => {
             loading ? "h-[27rem]" : "h-96"
           } w-96 bg-[#ffffff] flex flex-col items-center justify-center ${
             translate ? "-translate-x-[12rem]" : ""
-          }  duration-1000 transition-all space-y-6 rounded-3xl shadow-2xl`}>
-          <h1 className="text-black text-3xl font-semibold">Student</h1>
-          <div className="space-y-1">
+          }  duration-1000 transition-all rounded-3xl shadow-2xl`}>
+          <h1 className="text-black text-3xl mb-6 font-semibold">Student</h1>
+          <div className="space-y-1 mb-6">
             <p className="text-[#000000] font-semibold text-sm">Username</p>
             <div className="bg-[#515966] rounded-lg w-[14rem] flex  items-center">
               <input
@@ -77,7 +77,7 @@ const StudentLogin = () => {
               />
             </div>
           </div>
-          <div className="space-y-1">
+          <div className="space-y-1 mb-6">
             <p className="text-[#000000] font-semibold text-sm">Password</p>
             <div className="bg-[#515966] rounded-lg px-2 flex  items-center">
               <input
@@ -103,7 +103,7 @@ const StudentLogin = () => {
           </div>
           <button
             type="submit"
-            className="w-32 h-9 hover:scale-105 transition-all duration-150 rounded-lg flex items-center justify-center text-white text-base py-1 bg-[#5a51d6]">
+            className="mt-5 w-32 h-9 hover:scale-105 transition-all duration-150 rounded-lg flex items-center justify-center text-white text-base py-1 bg-[#5a51d6]">
             Login
           </button>
           {loading && (
