@@ -15,11 +15,11 @@ const Header = () => {
     <div className="flex-[0.05] flex justify-between items-center mx-5 my-2 pb-2 border-b border-blue-600">
       <div className="flex items-center ">
         <img
-          src="https://icon-library.com/images/cms-icon/cms-icon-11.jpg"
+          src="https://icon-library.com/images/cm-icon/cms-icon-11.jpg"
           alt=""
           className="h-7"
         />
-        <h1 className="font-bold text-blue-600 text-sm">CMS</h1>
+        <h1 className="font-bold text-blue-600 text-sm">ERP</h1>
       </div>
       <h1 className="font-semibold text-black">Welcome</h1>
       <div className="flex items-center space-x-3">

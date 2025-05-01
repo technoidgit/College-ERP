@@ -96,7 +96,7 @@ const Body = () => {
           <BoyIcon />
           <h1>All Students</h1>
         </div>
-        <div className=" mr-10 bg-white grid grid-cols-4 rounded-xl pt-6 pl-6 h-[29.5rem]">
+        <div className=" mr-10 bg-white grid grid-cols-4 rounded-xl pt-6 pl-6 h-[26.5rem]">
           <form
             className="flex flex-col space-y-2 col-span-1"
             onSubmit={handleSubmit}>
