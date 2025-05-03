@@ -23,7 +23,7 @@ const Body = () => {
           </div>
         </div>
         <div className="w-[98%] bg-white relative rounded-xl  ">
-          <div className="absolute left-[50%] top-[-10%] ">
+          <div className="absolute left-[40%] top-[-10%] ">
             <Avatar src={user.result.avatar} sx={{ width: 70, height: 70 }} />
           </div>
           <div className="overflow-y-scroll h-[27rem]">

@@ -22,11 +22,11 @@ const Body = () => {
             <h1 className="font-bold">Update</h1>
           </div>
         </div>
-        <div className="w-[98%] bg-white relative rounded-xl ">
-          <div className="absolute left-[42%] top-[-10%]">
+        <div className="w-[95%] ml-6 bg-white relative rounded-xl ">
+          <div className="absolute left-[35%] top-[-10%]">
             <Avatar src={user.result.avatar} sx={{ width: 70, height: 70 }} />
           </div>
-          <div className="flex py-10 ml-10 space-x-40">
+          <div className="flex py-10 ml-10  space-x-40">
             <div className="flex flex-col space-y-10">
               <Data label="Name" value={user.result.name} />
               <Data label="Email" value={user.result.email} />
